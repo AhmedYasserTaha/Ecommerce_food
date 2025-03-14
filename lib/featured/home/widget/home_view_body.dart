@@ -1,3 +1,5 @@
+import 'package:e_commerce/core/constes/app_colors.dart';
+import 'package:e_commerce/featured/home/widget/custom_container_widget.dart';
 import 'package:flutter/material.dart';
 
 class HomeViewBody extends StatelessWidget {
@@ -6,7 +8,12 @@ class HomeViewBody extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Column(),
+      backgroundColor: AppColors.Kgrey,
+      body: Column(
+        children: [
+          CustomContainerWidget(),
+        ],
+      ),
     );
   }
 }
