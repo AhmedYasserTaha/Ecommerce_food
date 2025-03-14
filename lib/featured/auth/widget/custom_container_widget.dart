@@ -1,5 +1,5 @@
 import 'package:e_commerce/core/constes/app_colors.dart';
-import 'package:e_commerce/featured/home/widget/custom_button.dart';
+import 'package:e_commerce/featured/auth/widget/custom_button.dart';
 import 'package:flutter/material.dart';
 
 class CustomContainerWidget extends StatelessWidget {

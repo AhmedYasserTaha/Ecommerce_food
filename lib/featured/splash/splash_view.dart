@@ -1,5 +1,5 @@
 import 'package:e_commerce/core/app_router/app_router.dart';
-import 'package:e_commerce/featured/home/home_view.dart';
+import 'package:e_commerce/featured/auth/login_view.dart';
 import 'package:flutter/material.dart';
 
 class SplashView extends StatefulWidget {
@@ -18,7 +18,7 @@ class _SplashViewState extends State<SplashView> {
         Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => HomeView(),
+              builder: (context) => LoginView(),
             ));
       },
     );

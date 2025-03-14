@@ -1,4 +1,4 @@
-import 'package:e_commerce/featured/home/home_view.dart';
+import 'package:e_commerce/featured/auth/login_view.dart';
 import 'package:e_commerce/featured/splash/splash_view.dart';
 import 'package:go_router/go_router.dart';
 
@@ -12,7 +12,7 @@ abstract class AppRouter {
       ),
       GoRoute(
         path: khomeView,
-        builder: (context, state) => HomeView(),
+        builder: (context, state) => LoginView(),
       ),
     ],
   );
